@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Durva Homeopathic Clinic in Ahmedabad, led by Dr. Jagruti A. Patel, B.H.M.S. Offering personalized homeopathic consultations with in-clinic and online consultation options.">
+    <meta name="keywords" content="Durva Homeopathic Clinic, Dr. Jagruti A. Patel, Homeopathic Clinic in Ahmedabad, Homeopathy Doctor in Ahmedabad, Homeopathy Vastral Road, B.H.M.S. Ahmedabad, Online Homeopathic Consultation, Swaminarayan College">
+    <meta name="author" content="Dr. Jagruti A. Patel">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Durva Homeopathic Clinic | Dr. Jagruti A. Patel, B.H.M.S. | Ahmedabad">
+    <meta property="og:description" content="Personalized homeopathic consultations with a dedicated, professional approach, available both in-clinic and online.">
+    <meta property="og:image" content="assets/botanical_hero.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://durvahomeopathicclinic.com">
+
+    <title>Durva Homeopathic Clinic | Dr. Jagruti A. Patel, B.H.M.S. | Ahmedabad</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo-area" id="logo-link" aria-label="Durva Homeopathic Clinic Home">
+                <img src="assets/logo.jpg" alt="Durva Homeopathic Clinic Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">DURVA</span>
+                    <span class="logo-subtitle">HOMEOPATHIC CLINIC</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav-menu" id="nav-menu-desktop" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Doctor</a></li>
+                    <li><a href="#clinic" class="nav-link">Clinic Gallery</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#approach" class="nav-link">Approach</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-cta">
+                <a href="#appointment" class="btn btn-primary btn-sm" id="nav-book-btn">Book Appointment</a>
+            </div>
+
+            <!-- Hamburger Button for Mobile -->
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <nav class="mobile-nav" aria-label="Mobile Navigation">
+            <ul class="mobile-nav-list">
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About Doctor</a></li>
+                <li><a href="#clinic" class="mobile-nav-link">Clinic Gallery</a></li>
+                <li><a href="#services" class="mobile-nav-link">Services</a></li>
+                <li><a href="#approach" class="mobile-nav-link">Approach</a></li>
+                <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                <li><a href="#appointment" class="mobile-nav-link mobile-cta-btn">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <span class="hero-tagline">DURVA HOMEOPATHIC CLINIC</span>
+                <h1 class="hero-title">Personalized Homeopathic Care for Better Well-Being</h1>
+                <p class="hero-subtitle">Professional homeopathic consultation with a personalized approach, led by Dr. Jagruti A. Patel, B.H.M.S. Available both in-clinic and online.</p>
+                <div class="hero-actions">
+                    <a href="#appointment" class="btn btn-primary" id="cta-hero-book">Book an Appointment</a>
+                    <a href="https://wa.me/919773263748?text=Hello%20Dr.%20Jagruti%20Patel,%20I%20would%20like%20to%20inquire%20about%20a%20homeopathic%20consultation." target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="cta-hero-whatsapp">
+                        <!-- WhatsApp Icon -->
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.004 2C6.48 2 2.004 6.477 2.004 12C2.004 13.825 2.496 15.535 3.352 17.011L2 22L7.147 20.684C8.591 21.523 10.245 22 12.004 22C17.528 22 22.004 17.523 22.004 12C22.004 6.477 17.528 2 12.004 2ZM17.653 16.59C17.411 17.271 16.29 17.848 15.706 17.962C15.228 18.055 14.598 18.125 12.502 17.255C9.82 16.142 8.083 13.407 7.949 13.228C7.818 13.05 6.862 11.782 6.862 10.472C6.862 9.162 7.529 8.525 7.8 8.243C8.01 8.026 8.358 7.915 8.687 7.915C8.795 7.915 8.892 7.92 8.978 7.924C9.231 7.935 9.358 7.95 9.524 8.349C9.732 8.847 10.239 10.089 10.3 10.213C10.362 10.337 10.424 10.503 10.342 10.669C10.26 10.835 10.191 10.916 10.067 11.061C9.943 11.206 9.805 11.378 9.688 11.517C9.557 11.669 9.409 11.831 9.579 12.122C9.749 12.41 10.336 13.366 11.203 14.138C12.321 15.137 13.235 15.454 13.553 15.587C13.81 15.695 14.116 15.671 14.3 15.475C14.529 15.226 14.812 14.836 15.1 14.437C15.304 14.154 15.556 14.113 15.824 14.213C16.096 14.312 17.545 15.027 17.844 15.176C18.143 15.326 18.343 15.4 18.416 15.525C18.489 15.65 18.489 16.223 17.653 16.59Z"/>
+                        </svg>
+                        WhatsApp Consultation
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-container fade-in-up delay-1">
+                <!-- Fallback elegant botanical frame using CSS and the generated high-quality asset -->
+                <div class="botanical-frame">
+                    <img src="assets/botanical_hero.jpg" alt="Calming botanical details representing natural homeopathic approach" class="hero-image">
+                    <div class="frame-border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-card">
+                    <div class="trust-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="8.5" cy="7" r="4" />
+                            <polyline points="17 11 19 13 23 9" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="trust-title">Dr. Jagruti A. Patel</h3>
+                        <p class="trust-text">B.H.M.S. Doctor</p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="trust-title">2+ Years Experience</h3>
+                        <p class="trust-text">Dedicated Practice</p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9 22 9 12 15 12 15 22" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="trust-title">In-Clinic Consultation</h3>
+                        <p class="trust-text">Vastral Road, Ahmedabad</p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 7a2 2 0 0 0-2-2h-4v2h4v10H3V7h4V5H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V7z" />
+                            <path d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            <circle cx="12" cy="12" r="10" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="trust-title">Online Consultation</h3>
+                        <p class="trust-text">Convenient Remote Care</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Doctor Section -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <!-- Left Side: Doctor Photo -->
+            <div class="about-photo-wrapper scroll-reveal">
+                <!-- Subtle Elegant Animation -->
+                <div class="about-doctor-animation">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" class="medical-anim-svg" aria-hidden="true">
+                        <!-- Soft glowing breathing halo -->
+                        <circle cx="50" cy="40" r="18" class="pulse-ring" />
+                        
+                        <!-- Central Staff/Stem -->
+                        <line x1="50" y1="20" x2="50" y2="60" class="stem" />
+                        
+                        <!-- Leaves -->
+                        <path d="M50 48 Q35 43 32 30 Q45 28 50 40" class="leaf-left" />
+                        <path d="M50 40 Q65 35 68 22 Q55 20 50 32" class="leaf-right" />
+                        
+                        <!-- Medical Cross Details -->
+                        <path d="M47 50 H53 M50 47 V53" class="mini-cross" />
+                        
+                        <!-- Rising particles -->
+                        <circle cx="42" cy="35" r="1" class="particle p1" />
+                        <circle cx="58" cy="28" r="1.5" class="particle p2" />
+                        <circle cx="48" cy="22" r="0.8" class="particle p3" />
+                        <circle cx="52" cy="18" r="1.2" class="particle p4" />
+                    </svg>
+                </div>
+                <div class="about-photo-frame">
+                    <img src="assets/dr_jagruti.jpg" alt="Dr. Jagruti A. Patel" class="about-photo">
+                </div>
+            </div>
+
+            <!-- Right Side: Doctor Details -->
+            <div class="about-text scroll-reveal">
+                <span class="section-tag">About the Doctor</span>
+                <h2 class="section-title">Dr. Jagruti A. Patel, B.H.M.S.</h2>
+                <div class="bio-content">
+                    <p>Dr. Jagruti A. Patel is a qualified homeopathic physician holding a Bachelor of Homeopathic Medicine and Surgery (B.H.M.S.) degree from the esteemed Swaminarayan College. With over 2 years of clinical experience, Dr. Patel is dedicated to providing high-quality, professional homeopathic consultations with a focus on holistic recovery.</p>
+                    
+                    <p>At Durva Homeopathic Clinic, the core philosophy centers on understanding each patient's unique health concerns. Dr. Patel believes that deep healing begins with listening carefully. By taking a comprehensive view of an individual's physical, mental, and lifestyle history, she provides personalized homeopathic consultations tailored specifically to their needs.</p>
+                    
+                    <p>Our goal is to support your body's natural balance and guide you toward sustainable health. We respect your choices and make clinical support accessible through dedicated in-clinic sessions at our Vastral Road location in Ahmedabad, as well as online consultation options for patient comfort and accessibility.</p>
+                </div>
+
+                <!-- Experience Badge and College Card -->
+                <div class="about-features-container">
+                    <div class="about-feature-card">
+                        <div class="badge-display">
+                            <span class="badge-num">2+</span>
+                            <span class="badge-desc">Years of Clinical Experience</span>
+                        </div>
+                    </div>
+                    <div class="about-feature-card">
+                        <div class="college-card">
+                            <svg class="college-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
+                            </svg>
+                            <div>
+                                <h4>Swaminarayan College</h4>
+                                <p>Education: B.H.M.S.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-meta">
+                    <div class="meta-item">
+                        <strong>Degrees:</strong> Bachelor of Homeopathic Medicine and Surgery (B.H.M.S.)
+                    </div>
+                    <div class="meta-item">
+                        <strong>College:</strong> Swaminarayan College, Gujarat
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Clinic Section -->
+    <section id="clinic" class="clinic-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Our Clinic</span>
+                <h2 class="section-title">Clinic Gallery</h2>
+                <p class="section-subtitle">A comfortable and welcoming environment for your healthcare journey.</p>
+            </div>
+            
+            <div class="clinic-gallery-grid scroll-reveal">
+                <!-- Image 1: Entrance -->
+                <div class="gallery-card">
+                    <div class="gallery-image-wrapper">
+                        <img src="assets/clinic_entrance.jpg" alt="Durva Homeopathic Clinic Entrance" class="gallery-image">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h3>Clinic Entrance</h3>
+                        <p>Welcome to Durva Homeopathic Clinic</p>
+                    </div>
+                </div>
+
+                <!-- Image 2: Our Clinic Interior -->
+                <div class="gallery-card">
+                    <div class="gallery-image-wrapper">
+                        <img src="assets/clinic_waiting.jpg" alt="Durva Homeopathic Clinic Interior" class="gallery-image">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h3>Our Clinic</h3>
+                        <p>A comfortable and professional space for your healthcare journey.</p>
+                    </div>
+                </div>
+
+                <!-- Image 3: Consulting Desk -->
+                <div class="gallery-card">
+                    <div class="gallery-image-wrapper">
+                        <img src="assets/clinic_consulting.jpg" alt="Durva Homeopathic Clinic Doctor's Consulting Desk" class="gallery-image">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h3>Consulting Room</h3>
+                        <p>Private and professional consulting desk</p>
+                    </div>
+                </div>
+
+                <!-- Image 4: Waiting Room -->
+                <div class="gallery-card">
+                    <div class="gallery-image-wrapper">
+                        <img src="assets/clinic_waiting_room.jpg" alt="Durva Homeopathic Clinic Waiting Room" class="gallery-image">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h3>Waiting Room</h3>
+                        <p>A comfortable and peaceful space for patients to relax before their consultation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Clinical Services</span>
+                <h2 class="section-title">Our Consultation Offerings</h2>
+                <p class="section-subtitle">We provide professional, responsible, and individual-focused homeopathic consultations. Every plan is carefully customized based on in-depth client evaluation.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4.5 16.5c-1.5 1.26-2.5 3.19-2.5 5.5h20c0-2.31-1-4.24-2.5-5.5" />
+                            <path d="M12 2C9.24 2 7 4.24 7 7c0 2.76 2.24 5 5 5s5-2.24 5-5c0-2.76-2.24-5-5-5z" />
+                            <path d="M8 19h8" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Homeopathic Consultation</h3>
+                    <p class="service-text">In-depth discussion and analysis of your health history, physical symptoms, and emotional state to identify appropriate homeopathic support.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                            <path d="M12 6v12" />
+                            <path d="M8 10h8" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Personalized Homeopathic Care</h3>
+                    <p class="service-text">A customized clinical consultation approach designed around your individual profile, supporting long-term health improvements.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="23 4 23 10 17 10" />
+                            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Follow-up Consultation</h3>
+                    <p class="service-text">Ongoing monitoring and assessment of your response to consultation, allowing us to adjust our approach to optimize outcomes.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Online Consultation</h3>
+                    <p class="service-text">Secure, comfortable consultations from the convenience of your home. Ideal for remote patients across India.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">In-Clinic Consultation</h3>
+                    <p class="service-text">Face-to-face evaluation in a clean, modern clinical environment equipped with professional standards at Rudra Business Park.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                            <line x1="16" y1="2" x2="16" y2="6" />
+                            <line x1="8" y1="2" x2="8" y2="6" />
+                            <line x1="3" y1="10" x2="21" y2="10" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Appointment-Based Consultation</h3>
+                    <p class="service-text">Carefully scheduled time slots to ensure no long waiting queues and complete focused attention for every visitor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach Section -->
+    <section id="approach" class="approach-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Clinical Methodology</span>
+                <h2 class="section-title">Our Consultation Process</h2>
+                <p class="section-subtitle">We follow a structured and patient-focused methodology to ensure safety, depth, and customization in homeopathic guidance.</p>
+            </div>
+
+            <div class="approach-steps">
+                <!-- Step 1 -->
+                <div class="step-card scroll-reveal">
+                    <div class="step-num">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Listen</h3>
+                        <p class="step-text">We take the time to understand all your symptoms, lifestyle parameters, emotional state, and comprehensive medical history.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-card scroll-reveal">
+                    <div class="step-num">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Understand</h3>
+                        <p class="step-text">We carefully review your overall health profile to grasp the underlying patterns of your wellness challenges.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-card scroll-reveal">
+                    <div class="step-num">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Personalize</h3>
+                        <p class="step-text">We formulate a custom homeopathic consultation strategy and select appropriate constitutional options based on your distinct profile.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="step-card scroll-reveal">
+                    <div class="step-num">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Follow Up</h3>
+                        <p class="step-text">We schedule timely follow-ups to evaluate progress, adapt clinical consultation choices, and answer your ongoing queries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy-section">
+        <div class="container philosophy-container scroll-reveal">
+            <div class="philosophy-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+            </div>
+            <h2 class="philosophy-title">Our Philosophy: Active Partnership in Health</h2>
+            <p class="philosophy-tagline">"Understand your health. Take an active role. Make informed choices."</p>
+            <p class="philosophy-text">At Durva Homeopathic Clinic, we believe that consultation is only one part of the journey. We encourage patients to actively understand their well-being, follow professional recommendations with discipline, and take charge of their daily choices. Wellness is not passive—it is a collaborative partnership built on trust, learning, and self-responsibility.</p>
+        </div>
+    </section>
+
+    <!-- Consultation & Appointment Section -->
+    <section id="appointment" class="appointment-section">
+        <div class="container appointment-container">
+            <!-- Form Card -->
+            <div class="appointment-card scroll-reveal" id="appointment-form-wrapper">
+                <h2 class="form-title">Book Your Consultation</h2>
+                <p class="form-desc">Request a schedule slot below. Our clinic assistant will contact you to confirm the final date and time.</p>
+                
+                <form id="booking-form" class="booking-form">
+                    <div class="form-group">
+                        <label for="patient-name">Full Name *</label>
+                        <input type="text" id="patient-name" name="patient-name" placeholder="Enter your full name" required>
+                        <span class="error-msg" id="name-error"></span>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="patient-phone">Phone Number *</label>
+                            <input type="tel" id="patient-phone" name="patient-phone" placeholder="10-digit mobile number" required>
+                            <span class="error-msg" id="phone-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="consultation-type">Consultation Type *</label>
+                            <select id="consultation-type" name="consultation-type" required>
+                                <option value="" disabled selected>Select option</option>
+                                <option value="In-Clinic">In-Clinic Consultation</option>
+                                <option value="Online">Online Consultation</option>
+                            </select>
+                            <span class="error-msg" id="type-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="appointment-date">Preferred Date *</label>
+                            <input type="date" id="appointment-date" name="appointment-date" required>
+                            <span class="error-msg" id="date-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="appointment-time">Preferred Time Slot *</label>
+                            <select id="appointment-time" name="appointment-time" required>
+                                <option value="" disabled selected>Select slot</option>
+                                <option value="Morning (10:00 AM - 12:00 PM)">Morning (10:00 AM - 12:00 PM)</option>
+                                <option value="Evening (6:00 PM - 8:00 PM)">Evening (6:00 PM - 8:00 PM)</option>
+                            </select>
+                            <span class="error-msg" id="time-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="patient-message">Brief Note / Message (Optional)</label>
+                        <textarea id="patient-message" name="patient-message" rows="3" placeholder="Tell us about your concerns..."></textarea>
+                    </div>
+
+                    <!-- General Error Message Container -->
+                    <div class="error-msg" id="general-error" style="text-align: center; margin-bottom: 1rem; display: none;"></div>
+
+                    <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Send Consultation Request</button>
+                </form>
+
+                <!-- Success State Overlay (Hidden by Default) -->
+                <div class="form-success-overlay" id="form-success">
+                    <div class="success-content">
+                        <svg class="success-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        <h3>Request Received!</h3>
+                        <p>Appointment request submitted successfully. We will contact you soon.</p>
+                        <button class="btn btn-secondary btn-sm" id="success-close-btn">Close</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Booking Info Panel -->
+            <div class="appointment-info scroll-reveal">
+                <span class="section-tag">Quick Booking Options</span>
+                <h2 class="info-title">Scheduling Timings & Channels</h2>
+                
+                <div class="info-block">
+                    <h3>Clinic Hours</h3>
+                    <p class="timing-row"><strong>Morning:</strong> 10:00 AM – 12:00 PM</p>
+                    <p class="timing-row"><strong>Evening:</strong> 6:00 PM – 8:00 PM</p>
+                    <p class="timing-note"><em>Appointments are recommended to minimize wait times.</em></p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Contact Directly</h3>
+                    <div class="direct-channels">
+                        <a href="https://wa.me/919773263748?text=Hello%20Dr.%20Jagruti%20Patel,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" class="btn-direct whatsapp-direct" id="cta-whatsapp-prominent">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="direct-icon">
+                                <path d="M12.004 2C6.48 2 2.004 6.477 2.004 12C2.004 13.825 2.496 15.535 3.352 17.011L2 22L7.147 20.684C8.591 21.523 10.245 22 12.004 22C17.528 22 22.004 17.523 22.004 12C22.004 6.477 17.528 2 12.004 2ZM17.653 16.59C17.411 17.271 16.29 17.848 15.706 17.962C15.228 18.055 14.598 18.125 12.502 17.255C9.82 16.142 8.083 13.407 7.949 13.228C7.818 13.05 6.862 11.782 6.862 10.472C6.862 9.162 7.529 8.525 7.8 8.243C8.01 8.026 8.358 7.915 8.687 7.915C8.795 7.915 8.892 7.92 8.978 7.924C9.231 7.935 9.358 7.95 9.524 8.349C9.732 8.847 10.239 10.089 10.3 10.213C10.362 10.337 10.424 10.503 10.342 10.669C10.26 10.835 10.191 10.916 10.067 11.061C9.943 11.206 9.805 11.378 9.688 11.517C9.557 11.669 9.409 11.831 9.579 12.122C9.749 12.41 10.336 13.366 11.203 14.138C12.321 15.137 13.235 15.454 13.553 15.587C13.81 15.695 14.116 15.671 14.3 15.475C14.529 15.226 14.812 14.836 15.1 14.437C15.304 14.154 15.556 14.113 15.824 14.213C16.096 14.312 17.545 15.027 17.844 15.176C18.143 15.326 18.343 15.4 18.416 15.525C18.489 15.65 18.489 16.223 17.653 16.59Z"/>
+                            </svg>
+                            <span>WhatsApp Booking (+91 97732 63748)</span>
+                        </a>
+                        
+                        <a href="tel:+919773263748" class="btn-direct phone-direct" id="cta-call-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="direct-icon">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                            <span>Call Clinic (+91 97732 63748)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container faq-container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Common Inquiries</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Clear and responsible answers regarding our clinic procedures, timings, and consultation framework.</p>
+            </div>
+
+            <div class="faq-list">
+                <!-- FAQ 1 -->
+                <div class="faq-item scroll-reveal" id="faq-item-1">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-answer-1">
+                        <span>What is a homeopathic consultation?</span>
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-1" aria-hidden="true">
+                        <div class="faq-answer-inner">
+                            <p>A homeopathic consultation involves a detailed analysis of your health concern, medical history, lifestyle factors, and personal triggers. Instead of just assessing isolated symptoms, a homeopathic doctor evaluates the entire health profile to advise customized homeopathic options that fit your unique system.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item scroll-reveal" id="faq-item-2">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-answer-2">
+                        <span>Do I need an appointment?</span>
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-2" aria-hidden="true">
+                        <div class="faq-answer-inner">
+                            <p>Yes, booking an appointment is highly recommended. Because we dedicate extensive, individual time to every case analysis, scheduling in advance ensures minimum waiting times and complete attention during your visit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item scroll-reveal" id="faq-item-3">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-answer-3">
+                        <span>Is online consultation available?</span>
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-3" aria-hidden="true">
+                        <div class="faq-answer-inner">
+                            <p>Yes, online consultations are fully supported. You can book an online consultation via our website form, phone, or WhatsApp, and the session will be conducted securely over a video call or telephonic discussion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item scroll-reveal" id="faq-item-4">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-answer-4">
+                        <span>What are the clinic timings?</span>
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-4" aria-hidden="true">
+                        <div class="faq-answer-inner">
+                            <p>Durva Homeopathic Clinic operates in two shifts:<br>
+                            <strong>Morning:</strong> 10:00 AM – 12:00 PM<br>
+                            <strong>Evening:</strong> 6:00 PM – 8:00 PM<br>
+                            The clinic is located in Ahmedabad, Gujarat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item scroll-reveal" id="faq-item-5">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-answer-5">
+                        <span>How does an online consultation work?</span>
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-5" aria-hidden="true">
+                        <div class="faq-answer-inner">
+                            <p>Once you request an online consultation, our clinic assistant will coordinate with you via WhatsApp or phone call to finalize your slot. During your appointment time, Dr. Patel will conduct a thorough video or audio consultation. Necessary recommendations and customized guidance are then detailed to you, and options for shipping your consultations/supplies directly to your address will be arranged.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="faq-item scroll-reveal" id="faq-item-6">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-answer-6">
+                        <span>Where is Durva Homeopathic Clinic located?</span>
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-6" aria-hidden="true">
+                        <div class="faq-answer-inner">
+                            <p>The clinic is located at:<br>
+                            <strong>308, Rudra Business Park, Opp. Kashinath Park, Metro Pillar No. 125, Vastral Road, Ahmedabad – 382418, Gujarat, India.</strong><br>
+                            It is easily accessible by road and metro lines on Vastral Road.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Patient Experiences</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+            </div>
+            
+            <div class="reviews-slider-wrapper scroll-reveal">
+                <button class="slider-arrow prev-arrow" id="reviews-prev" aria-label="Previous Review">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="15 18 9 12 15 6" />
+                    </svg>
+                </button>
+
+                <div class="reviews-slider" id="reviews-slider">
+                    <!-- Review 1: Ankit Sharma -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-avatar avatar-blue">A</span>
+                                <div>
+                                    <h4 class="reviewer-name">Ankit Sharma</h4>
+                                    <span class="review-time">3 weeks ago</span>
+                                </div>
+                            </div>
+                            <div class="google-badge">
+                                <svg class="google-icon" viewBox="0 0 24 24" width="14" height="14">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span class="google-text">Google Review</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="review-text">"Maine Durva Homeopathic Clinic Visit Kiya Tha, Mujhe Migrane ki taklif jyada raheti thi, fir Dr. Jagruti Patel Ka Reference mila mujhe apne dost se to maine fir visit kiya aur unho ne mujhe pura treatment aur guide kiya."</p>
+                    </div>
+
+                    <!-- Review 2: Navneet Sharma -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-avatar avatar-green">N</span>
+                                <div>
+                                    <h4 class="reviewer-name">Navneet Sharma</h4>
+                                    <span class="review-time">1 week ago</span>
+                                </div>
+                            </div>
+                            <div class="google-badge">
+                                <svg class="google-icon" viewBox="0 0 24 24" width="14" height="14">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span class="google-text">Google Review</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="review-text">"First Of All, Thank You Dr. Jagruti Patel And Durva Homeopathic Clinic For Treating My Anxiety Fear. I had anxiety from last some time and I got news from one of my colleagues to visit Durva Homeopathic Clinic located at Vastral Ahmedabad."</p>
+                    </div>
+
+                    <!-- Review 3: Trisha Patel -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-avatar avatar-purple">T</span>
+                                <div>
+                                    <h4 class="reviewer-name">Trisha Patel</h4>
+                                    <span class="review-time">2 weeks ago</span>
+                                </div>
+                            </div>
+                            <div class="google-badge">
+                                <svg class="google-icon" viewBox="0 0 24 24" width="14" height="14">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span class="google-text">Google Review</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="review-text">"Excellent homeopathy clinic with caring doctor [DR. JAGRUTI PATEL]. The treatment was effective, and the overall experience was smooth and satisfying. Highly recommended!"</p>
+                    </div>
+
+                    <!-- Review 4: Harsh Patel -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-avatar avatar-gold">H</span>
+                                <div>
+                                    <h4 class="reviewer-name">Harsh Patel</h4>
+                                    <span class="review-time">1 month ago</span>
+                                </div>
+                            </div>
+                            <div class="google-badge">
+                                <svg class="google-icon" viewBox="0 0 24 24" width="14" height="14">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span class="google-text">Google Review</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="review-text">"I had a very good experience at Durva Homeopathic Clinic. Dr. Jagruti Patel is very knowledgeable, polite, and gives proper attention to patients. She listens carefully to the problems and provides proper guidance and treatment. Highly recommended!"</p>
+                    </div>
+
+                    <!-- Review 5: Krunal Patel -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-avatar avatar-blue">K</span>
+                                <div>
+                                    <h4 class="reviewer-name">Krunal Patel</h4>
+                                    <span class="review-time">3 weeks ago</span>
+                                </div>
+                            </div>
+                            <div class="google-badge">
+                                <svg class="google-icon" viewBox="0 0 24 24" width="14" height="14">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span class="google-text">Google Review</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="review-text"><em>(5-Star Rating)</em></p>
+                        <div class="owner-reply">
+                            <p class="reply-title">Response from the owner:</p>
+                            <p class="reply-text">"Thank you so much for the 5-star rating, Krunal! We truly appreciate your support for Durva Homeopathic Clinic. Wishing you the best of health! — Dr. Jagruti Patel & Team"</p>
+                        </div>
+                    </div>
+
+                    <!-- Review 6: Aarya Prajapati -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-avatar avatar-purple">A</span>
+                                <div>
+                                    <h4 class="reviewer-name">Aarya Prajapati</h4>
+                                    <span class="review-time">1 month ago</span>
+                                </div>
+                            </div>
+                            <div class="google-badge">
+                                <svg class="google-icon" viewBox="0 0 24 24" width="14" height="14">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span class="google-text">Google Review</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="review-text"><em>(5-Star Rating)</em></p>
+                        <div class="owner-reply">
+                            <p class="reply-title">Response from the owner:</p>
+                            <p class="reply-text">"Thank you for the 5-star review, Aarya! It was a pleasure assisting you at Durva Homeopathic Clinic. Stay healthy and well! — Durva Homeopathic Clinic"</p>
+                        </div>
+                    </div>
+
+                    <!-- Review 7: Manoj Prajapati -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-avatar avatar-green">M</span>
+                                <div>
+                                    <h4 class="reviewer-name">Manoj Prajapati</h4>
+                                    <span class="review-time">1 month ago</span>
+                                </div>
+                            </div>
+                            <div class="google-badge">
+                                <svg class="google-icon" viewBox="0 0 24 24" width="14" height="14">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span class="google-text">Google Review</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="review-text"><em>(5-Star Rating)</em></p>
+                        <div class="owner-reply">
+                            <p class="reply-title">Response from the owner:</p>
+                            <p class="reply-text">"Thank you very much for your 5-star rating and encouragement, Manoj. We truly value your trust in our clinic! — Dr. Jagruti Patel & Team"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-arrow next-arrow" id="reviews-next" aria-label="Next Review">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="9 18 15 12 9 6" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Slider Pagination Dots -->
+            <div class="slider-dots" id="slider-dots">
+                <button class="slider-dot active" aria-label="Go to Slide 1"></button>
+                <button class="slider-dot" aria-label="Go to Slide 2"></button>
+                <button class="slider-dot" aria-label="Go to Slide 3"></button>
+                <button class="slider-dot" aria-label="Go to Slide 4"></button>
+                <button class="slider-dot" aria-label="Go to Slide 5"></button>
+                <button class="slider-dot" aria-label="Go to Slide 6"></button>
+                <button class="slider-dot" aria-label="Go to Slide 7"></button>
+            </div>
+
+            <!-- Link to write review -->
+            <div class="write-review-container scroll-reveal">
+                <p class="write-review-text">Are you a patient? Share your experience with us on Google.</p>
+                <a href="https://www.google.com/search?q=durva+homeopathic+clinic&oq=dur&gs_lcrp=EgZjaHJvbWUqCAgCEEUYJxg7MgYIABBFGDwyBggBEEUYOTIICAIQRRgnGDsyBggDECMYJzIKCAQQABixAxiABDIHCAUQABiABDIGCAYQRRg9MgYIBxBFGDzSAQgzODYyajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8#lrd=0x395e8710f6299e79:0xc05edc20de217c92,1" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="google-write-review-btn">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                        <path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+                    </svg>
+                    Write a Review
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-details scroll-reveal">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Visit or Contact Our Clinic</h2>
+                <p class="contact-intro">We are here to assist with your inquiries, slot requests, and consultation setups. Reach out via your preferred communication method.</p>
+                
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Clinic Address</h3>
+                            <address>
+                                308, Rudra Business Park, Opp. Kashinath Park,<br>
+                                Metro Pillar No. 125, Vastral Road,<br>
+                                Ahmedabad – 382418, Gujarat, India
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone / Mobile</h3>
+                            <p><a href="tel:+919773263748" class="contact-link">+91 97732 63748</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email Address</h3>
+                            <p><a href="mailto:jagupatel293@gmail.com" class="contact-link">jagupatel293@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Instagram</h3>
+                            <p><a href="https://www.instagram.com/durva_homeopathic_clinic" target="_blank" rel="noopener noreferrer" class="contact-link">@durva_homeopathic_clinic</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Button Matrix -->
+                <div class="action-buttons-group">
+                    <a href="tel:+919773263748" class="action-btn call-action" title="Call Clinic">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        Call Us
+                    </a>
+                    <a href="https://wa.me/919773263748?text=Hello%20Dr.%20Jagruti%20Patel,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" class="action-btn whatsapp-action" title="WhatsApp Chat">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.004 2C6.48 2 2.004 6.477 2.004 12C2.004 13.825 2.496 15.535 3.352 17.011L2 22L7.147 20.684C8.591 21.523 10.245 22 12.004 22C17.528 22 22.004 17.523 22.004 12C22.004 6.477 17.528 2 12.004 2ZM17.653 16.59C17.411 17.271 16.29 17.848 15.706 17.962C15.228 18.055 14.598 18.125 12.502 17.255C9.82 16.142 8.083 13.407 7.949 13.228C7.818 13.05 6.862 11.782 6.862 10.472C6.862 9.162 7.529 8.525 7.8 8.243C8.01 8.026 8.358 7.915 8.687 7.915C8.795 7.915 8.892 7.92 8.978 7.924C9.231 7.935 9.358 7.95 9.524 8.349C9.732 8.847 10.239 10.089 10.3 10.213C10.362 10.337 10.424 10.503 10.342 10.669C10.26 10.835 10.191 10.916 10.067 11.061C9.943 11.206 9.805 11.378 9.688 11.517C9.557 11.669 9.409 11.831 9.579 12.122C9.749 12.41 10.336 13.366 11.203 14.138C12.321 15.137 13.235 15.454 13.553 15.587C13.81 15.695 14.116 15.671 14.3 15.475C14.529 15.226 14.812 14.836 15.1 14.437C15.304 14.154 15.556 14.113 15.824 14.213C16.096 14.312 17.545 15.027 17.844 15.176C18.143 15.326 18.343 15.4 18.416 15.525C18.489 15.65 18.489 16.223 17.653 16.59Z"/>
+                        </svg>
+                        WhatsApp
+                    </a>
+                    <a href="mailto:jagupatel293@gmail.com" class="action-btn email-action" title="Send Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        Email Us
+                    </a>
+                    <a href="https://www.instagram.com/durva_homeopathic_clinic" target="_blank" rel="noopener noreferrer" class="action-btn instagram-action" title="Instagram Page">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                        Instagram
+                    </a>
+                </div>
+            </div>
+
+            <!-- Google Map -->
+            <div class="contact-map scroll-reveal" id="map-wrapper">
+                <iframe 
+                    title="Durva Homeopathic Clinic Location Map"
+                    src="https://maps.google.com/maps?q=308,%20Rudra%20Business%20Park,%20Opp.%20Kashinath%20Park,%20Metro%20Pillar%20No.%20125,%20Vastral%20Road,%20Ahmedabad%20%E2%80%93%20382418&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="assets/logo.jpg" alt="Durva Homeopathic Clinic Logo" class="footer-logo-img">
+                    <h2>DURVA HOMEOPATHIC CLINIC</h2>
+                </div>
+                <p class="footer-doctor">Dr. Jagruti A. Patel, B.H.M.S.</p>
+                <p class="footer-tagline">Professional homeopathic care focusing on holistic and individualized consultation strategies.</p>
+                <p class="footer-location">Ahmedabad, Gujarat, India</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#clinic">Clinic Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#approach">Our Approach</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Direct Contact</h3>
+                <p class="footer-phone"><strong>Phone:</strong> <a href="tel:+919773263748">+91 97732 63748</a></p>
+                <p class="footer-email"><strong>Email:</strong> <a href="mailto:jagupatel293@gmail.com">jagupatel293@gmail.com</a></p>
+                <p class="footer-instagram"><strong>Instagram:</strong> <a href="https://www.instagram.com/durva_homeopathic_clinic" target="_blank" rel="noopener noreferrer">@durva_homeopathic_clinic</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p class="copyright">&copy; 2026 Durva Homeopathic Clinic. All Rights Reserved.</p>
+                <p class="disclaimer">Disclaimer: Homeopathic consultations represent supportive care based on constitutional characteristics. Always seek direct medical consultation for urgent acute conditions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
